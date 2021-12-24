@@ -9,7 +9,10 @@ import SwiftUI
 
 struct CustomButton: View {
     @State var buttonText: String = "Continue"
-    var bgroundColor: Color = Color.secondary
+    var fontSize: CGFloat = 18.0
+    var bgroundColor: Color = Color.sec
+    var borderColor: Color = Color.sec
+    var borderWidth: CGFloat = 0.0
     var fgroundColor: Color = Color.white
     var cornerRad: CGFloat = 10.0
     var minLength: CGFloat = 20
@@ -20,7 +23,7 @@ struct CustomButton: View {
                 HStack {
                     Spacer()
                     Text(buttonText)
-                        .font(Font.custom("Poppins-SemiBold",size:18))
+                        .font(Font.custom("Poppins-SemiBold",size:fontSize))
                         .lineLimit(1)
                         .minimumScaleFactor(0.3)
                         .padding(.vertical,12)
@@ -29,6 +32,10 @@ struct CustomButton: View {
                 .foregroundColor(fgroundColor)
                 .background(bgroundColor)
                 .cornerRadius(cornerRad)
+                .overlay(
+                    RoundedRectangle(cornerRadius: cornerRad)
+                        .stroke(borderColor, lineWidth: borderWidth)
+            )
             }
         }
     }

@@ -20,7 +20,6 @@
 		31128D0C277300470084C9EA /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31128D0B277300470084C9EA /* StringConstants.swift */; };
 		31128D0E277302AC0084C9EA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31128D0D277302AC0084C9EA /* Poppins-Bold.ttf */; };
 		31128D12277306860084C9EA /* SplashScreenTabIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31128D11277306860084C9EA /* SplashScreenTabIndicator.swift */; };
-		31128D1427730B070084C9EA /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31128D1327730B070084C9EA /* LoginSignupView.swift */; };
 		31128D1627730C460084C9EA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31128D1527730C460084C9EA /* CustomTextField.swift */; };
 		314A408F27383BEC0058082F /* VITTYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A408E27383BEC0058082F /* VITTYApp.swift */; };
 		314A409127383BEC0058082F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A409027383BEC0058082F /* ContentView.swift */; };
@@ -29,6 +28,16 @@
 		314A409827383BEE0058082F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A409727383BEE0058082F /* Persistence.swift */; };
 		314A409B27383BEE0058082F /* VITTY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 314A409927383BEE0058082F /* VITTY.xcdatamodeld */; };
 		3168511F277319480046A9AC /* SignupOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168511E277319480046A9AC /* SignupOR.swift */; };
+		317EE1932775B819008AEB31 /* InstructionsCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EE1922775B819008AEB31 /* InstructionsCards.swift */; };
+		317EE1952775C555008AEB31 /* LogoutPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EE1942775C555008AEB31 /* LogoutPopup.swift */; };
+		317EE1972775C8BE008AEB31 /* ExamHolidayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EE1962775C8BE008AEB31 /* ExamHolidayMode.swift */; };
+		317EE1992775D3C6008AEB31 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EE1982775D3C6008AEB31 /* SettingsView.swift */; };
+		31900F01277467460014A58D /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31900F00277467460014A58D /* InstructionsView.swift */; };
+		31900F03277468790014A58D /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31900F02277468790014A58D /* HomePage.swift */; };
+		31900F0527746A400014A58D /* HomePageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31900F0427746A400014A58D /* HomePageHeader.swift */; };
+		31900F0827746B3A0014A58D /* HomeTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31900F0727746B3A0014A58D /* HomeTabBarView.swift */; };
+		31900F0A27759DB60014A58D /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31900F0927759DB60014A58D /* Gradient.swift */; };
+		31900F0C2775A6080014A58D /* ClassCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31900F0B2775A6080014A58D /* ClassCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +55,6 @@
 		31128D0B277300470084C9EA /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		31128D0D277302AC0084C9EA /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		31128D11277306860084C9EA /* SplashScreenTabIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenTabIndicator.swift; sourceTree = "<group>"; };
-		31128D1327730B070084C9EA /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
 		31128D1527730C460084C9EA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		314A408B27383BEC0058082F /* VITTY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VITTY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		314A408E27383BEC0058082F /* VITTYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITTYApp.swift; sourceTree = "<group>"; };
@@ -56,6 +64,16 @@
 		314A409727383BEE0058082F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		314A409A27383BEE0058082F /* VITTY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VITTY.xcdatamodel; sourceTree = "<group>"; };
 		3168511E277319480046A9AC /* SignupOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupOR.swift; sourceTree = "<group>"; };
+		317EE1922775B819008AEB31 /* InstructionsCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsCards.swift; sourceTree = "<group>"; };
+		317EE1942775C555008AEB31 /* LogoutPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutPopup.swift; sourceTree = "<group>"; };
+		317EE1962775C8BE008AEB31 /* ExamHolidayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamHolidayMode.swift; sourceTree = "<group>"; };
+		317EE1982775D3C6008AEB31 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		31900F00277467460014A58D /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		31900F02277468790014A58D /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		31900F0427746A400014A58D /* HomePageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageHeader.swift; sourceTree = "<group>"; };
+		31900F0727746B3A0014A58D /* HomeTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarView.swift; sourceTree = "<group>"; };
+		31900F0927759DB60014A58D /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		31900F0B2775A6080014A58D /* ClassCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,8 @@
 			children = (
 				31128D032772F8E90084C9EA /* CustomButton.swift */,
 				31128D1527730C460084C9EA /* CustomTextField.swift */,
+				317EE1942775C555008AEB31 /* LogoutPopup.swift */,
+				317EE1962775C8BE008AEB31 /* ExamHolidayMode.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -113,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				31128D062772FA120084C9EA /* Colors.swift */,
+				31900F0927759DB60014A58D /* Gradient.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -196,9 +217,11 @@
 		314A40A427383C370058082F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				31900F0627746B130014A58D /* HomePage */,
 				31128D022772F8DA0084C9EA /* Common */,
 				31128CFF2772F81E0084C9EA /* SplashScreen */,
 				3168511E277319480046A9AC /* SignupOR.swift */,
+				317EE1922775B819008AEB31 /* InstructionsCards.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -214,9 +237,21 @@
 			isa = PBXGroup;
 			children = (
 				31128D002772F8370084C9EA /* SplashScreen.swift */,
-				31128D1327730B070084C9EA /* LoginSignupView.swift */,
+				31900F00277467460014A58D /* InstructionsView.swift */,
+				31900F02277468790014A58D /* HomePage.swift */,
+				317EE1982775D3C6008AEB31 /* SettingsView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		31900F0627746B130014A58D /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				31900F0427746A400014A58D /* HomePageHeader.swift */,
+				31900F0727746B3A0014A58D /* HomeTabBarView.swift */,
+				31900F0B2775A6080014A58D /* ClassCards.swift */,
+			);
+			path = HomePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,8 +331,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				317EE1932775B819008AEB31 /* InstructionsCards.swift in Sources */,
+				317EE1992775D3C6008AEB31 /* SettingsView.swift in Sources */,
 				31128D012772F8370084C9EA /* SplashScreen.swift in Sources */,
-				31128D1427730B070084C9EA /* LoginSignupView.swift in Sources */,
+				31900F0827746B3A0014A58D /* HomeTabBarView.swift in Sources */,
+				317EE1972775C8BE008AEB31 /* ExamHolidayMode.swift in Sources */,
 				314A409827383BEE0058082F /* Persistence.swift in Sources */,
 				31128D0C277300470084C9EA /* StringConstants.swift in Sources */,
 				31128D042772F8E90084C9EA /* CustomButton.swift in Sources */,
@@ -306,9 +344,15 @@
 				31128D072772FA120084C9EA /* Colors.swift in Sources */,
 				314A409127383BEC0058082F /* ContentView.swift in Sources */,
 				31128D1627730C460084C9EA /* CustomTextField.swift in Sources */,
+				31900F03277468790014A58D /* HomePage.swift in Sources */,
 				314A409B27383BEE0058082F /* VITTY.xcdatamodeld in Sources */,
+				31900F01277467460014A58D /* InstructionsView.swift in Sources */,
 				31128D09277300130084C9EA /* SplashScreenIllustration.swift in Sources */,
+				31900F0527746A400014A58D /* HomePageHeader.swift in Sources */,
+				317EE1952775C555008AEB31 /* LogoutPopup.swift in Sources */,
 				314A408F27383BEC0058082F /* VITTYApp.swift in Sources */,
+				31900F0C2775A6080014A58D /* ClassCards.swift in Sources */,
+				31900F0A27759DB60014A58D /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
