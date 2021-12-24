@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SettingsView: View {
-    @State var examModeOn: Bool = false
+    @AppStorage("examMode") var examModeOn: Bool = false
     var githubURL = URL(string: "https://github.com/GDGVIT/vitty-ios")
     var gdscURL = URL(string: "https://dscvit.com/")
     var body: some View {

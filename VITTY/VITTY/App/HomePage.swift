@@ -12,6 +12,7 @@ struct HomePage: View {
     @State var tabSelected: Int = 0
     @State var goToSettings: Bool = false
     @State var showLogout: Bool = false
+    @AppStorage("examMode") var examModeOn: Bool = false
     var body: some View {
 //        NavigationView {
             ZStack {
@@ -39,16 +40,18 @@ struct HomePage: View {
                         .foregroundColor(Color.white)
                         Spacer()
                     }
-                    
                     NavigationLink(destination: SettingsView(), isActive: $goToSettings) {
                         EmptyView()
+                    }
+                    if examModeOn {
+                        ExamHolidayMode()
                     }
                 }
                 if showLogout {
                     LogoutPopup(showLogout: $showLogout)
                 }
             }
-            .padding(.vertical)
+            .padding(.top)
             .background(Image(noClass ? "HomeNoClassesBG" : "HomeBG").resizable().scaledToFill().edgesIgnoringSafeArea(.all))
         .navigationBarHidden(true)
 //        }

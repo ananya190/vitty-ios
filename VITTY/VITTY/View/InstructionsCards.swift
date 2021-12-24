@@ -25,7 +25,6 @@ struct InstructionsCards: View {
                     ForEach(StringConstants.accDetails, id: \.self) { point in
                         Text(point)
                             .foregroundColor(Color.vprimary)
-                            .padding(.vertical,2)
                     }
                 }
                 .padding()
@@ -50,7 +49,6 @@ struct InstructionsCards: View {
                             ForEach(StringConstants.setupInstructions, id: \.self) { point in
                                 Text(point)
                                     .foregroundColor(Color.vprimary)
-                                    .padding(.vertical,2)
                             }
                             Text(StringConstants.setupFinalText)
                                 .foregroundColor(Color.white)

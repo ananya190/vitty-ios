@@ -19,7 +19,7 @@ struct InstructionsView: View {
             .font(Font.custom("Poppins-Bold", size: 24))
             .foregroundColor(Color.white)
             InstructionsCards()
-            Spacer(minLength: 100)
+            Spacer()
             CustomButton(buttonText: "Done") {
             }
         }
